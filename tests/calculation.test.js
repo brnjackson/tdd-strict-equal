@@ -1,5 +1,5 @@
 let describe = require('mocha').describe
-let it = require('mocha').it
+let it = require('mocha').itgit
 let expect = require ('chai').expect
 let strictEqual = require('../calculation.js')
 
