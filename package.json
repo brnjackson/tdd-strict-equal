@@ -1,0 +1,28 @@
+{
+  "name": "tdd-strict-equal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.29.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.1"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "test": "mocha ./tests/*.test.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://brnjackson@github.com/brnjackson/tdd-strict-equal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brnjackson/tdd-strict-equal/issues"
+  },
+  "homepage": "https://github.com/brnjackson/tdd-strict-equal#readme"
+}
